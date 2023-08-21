@@ -34,6 +34,7 @@ Run - npx hardhat run scripts/approveDeposit.js --network goerli
 
 Copy that address in Goeril Testnet (Etherscan) for checking the transaction
 
+```
 // SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.9;
@@ -80,7 +81,7 @@ contract Alien is ERC721A{
         return prompt;
     }
 }
-
+```
 # Authors
 Shivani Jaggi
 
